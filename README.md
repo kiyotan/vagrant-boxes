@@ -16,16 +16,16 @@ https://atlas.hashicorp.com/louk/centos67minimal
 #### Install Vagrant
 http://www.vagrantup.com/downloads.html
 
+#### Install Virtualbox
+https://www.virtualbox.org/wiki/Downloads
+
+## Usage
+
 #### Install Vagrant Plugin
 ```sh
 # on host os
 $ vagrant plugin install vagrant-vbguest
 ```
-
-#### Install Virtualbox
-https://www.virtualbox.org/wiki/Downloads
-
-## Usage
 
 #### Start up Vagrant box, and Connect by ssh
 ```sh
@@ -48,8 +48,10 @@ $ bin/rails s -b 0.0.0.0
 ```
 
 #### Access by your browser
-```html
+```sh
 # on host os
+```
+```html
 http://0.0.0.0:4000/
 ```
 <http://0.0.0.0:4000/>
