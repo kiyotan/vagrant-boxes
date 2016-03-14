@@ -47,13 +47,7 @@ $ rails new . rails_study
 $ bin/rails s -b 0.0.0.0
 ```
 
-#### Access by your browser
-```sh
-# on host os
-```
-```html
-http://0.0.0.0:4000/
-```
+#### Access by your browser on host os
 <http://0.0.0.0:4000/>
 
 ---
