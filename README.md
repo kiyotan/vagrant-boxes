@@ -1,26 +1,30 @@
 vagrant-boxes for Rails study
 ====
-https://atlas.hashicorp.com/louk/centos67minimal
 
 ### Spec
 centos67-x86_64 minimal with ...  
+rbenv 1.0.0  
 Ruby 2.2.1  
 Rails 4.2.1  
 sqlite3 3.9.1  
 Node.js 0.12.7  
 
+### Box
+https://atlas.hashicorp.com/louk/centos67minimal  
+https://atlas.hashicorp.com/louk/boxes/centos67minimal/versions/new  
 
 ## Installation for Mac
 
-### Vagrant
+### Install Vagrant
 http://www.vagrantup.com/downloads.html
 
-### Virtualbox
+### Install Virtualbox
 https://www.virtualbox.org/wiki/Downloads
 
-### Usage
+### Start up Vagrant box, and connect by ssh
 ```sh
-# you should change below "~/projects..." to your directories
+# on host os
+# note: you should change the directory '~/projects/..' below to your directories
 $ mkdir -p ~/projects
 $ git clone https://github.com/kiyotan/vagrant-boxes.git ~/projects/rails_study
 $ cd ~/projects/rails_study
@@ -28,9 +32,18 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-***
+### Create Rails project, Start server, and access by a browser
+```sh
+# on guest os
+# note: you should change the project name 'rails_study' below to your project
+$ rails new . rails_study
+$ bin/rails s -b 0.0.0.0
+
+# on host os
+access http://0.0.0.0:4000/
+```
+---
 
 **enjoy!**
 
-https://atlas.hashicorp.com/louk/boxes/centos67minimal/versions/new
 
