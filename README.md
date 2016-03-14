@@ -45,7 +45,7 @@ $ rails new . rails_study
 $ bin/rails s -b 0.0.0.0
 
 # on host os
-access http://0.0.0.0:4000/
+access [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
 ```
 ---
 
