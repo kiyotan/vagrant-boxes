@@ -21,6 +21,11 @@ http://www.vagrantup.com/downloads.html
 ### Install Virtualbox
 https://www.virtualbox.org/wiki/Downloads
 
+```sh
+# on host os
+$ vagrant plugin install vagrant-vbguest
+```
+
 ### Start up Vagrant box, and connect by ssh
 ```sh
 # on host os
