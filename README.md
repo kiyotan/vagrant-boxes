@@ -20,7 +20,7 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Usage
 ```sh
-# you should change below "~/project" to your directories
+# you should change below "~/projects..." to your directories
 $ mkdir -p ~/projects
 $ git clone https://github.com/kiyotan/vagrant-boxes.git ~/projects/rails_study
 $ cd ~/projects/rails_study
