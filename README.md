@@ -25,7 +25,9 @@ $ vagrant plugin install vagrant-vbguest
 #### Install Virtualbox
 https://www.virtualbox.org/wiki/Downloads
 
-#### Start up Vagrant box, and connect by ssh
+## Usage
+
+#### Start up Vagrant box, and Connect by ssh
 ```sh
 # on host os
 # note: you should change the directory '~/projects/..' below to your directories
@@ -36,17 +38,22 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-#### Create rails project, Start server, and access by a browser
+#### Create rails project, and Start WEBrick server
 ```sh
 # on guest os
 # note: you should change the project name 'rails_study' below to your project
 $ cd /vagrant
 $ rails new . rails_study
 $ bin/rails s -b 0.0.0.0
-
-# on host os
-access [http://0.0.0.0:4000/](http://0.0.0.0:4000/)
 ```
+
+#### Access by your browser
+```html
+# on host os
+http://0.0.0.0:4000/
+```
+<http://0.0.0.0:4000/>
+
 ---
 
 **_enjoy!_**
