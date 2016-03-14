@@ -12,7 +12,8 @@ https://www.virtualbox.org/wiki/Downloads
 
 ### Usage
 ```sh
-$ mkdir -p ~/projects/rails_study # change your any directory
+$ mkdir -p ~/projects # change your any directory
+$ git clone https://github.com/kiyotan/vagrant-boxes.git ~/projects/rails_study # change your any directory
 $ cd ~/projects/rails_study
 $ vagrant up
 $ vagrant ssh
