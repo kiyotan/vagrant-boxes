@@ -16,13 +16,14 @@ https://atlas.hashicorp.com/louk/centos67minimal
 #### Install Vagrant
 http://www.vagrantup.com/downloads.html
 
-#### Install Virtualbox
-https://www.virtualbox.org/wiki/Downloads
-
+#### Install Vagrant Plugin
 ```sh
 # on host os
 $ vagrant plugin install vagrant-vbguest
 ```
+
+#### Install Virtualbox
+https://www.virtualbox.org/wiki/Downloads
 
 #### Start up Vagrant box, and connect by ssh
 ```sh
