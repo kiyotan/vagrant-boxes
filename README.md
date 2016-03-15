@@ -1,23 +1,23 @@
 # vagrant-boxes for Rails study
 
-## Spec
-centos67-x86_64 minimal with  
-rbenv 1.0.0  
-Ruby 2.2.1  
-Rails 4.2.1  
-sqlite3 3.9.1  
-Node.js 0.12.7  
+#### Spec
+* centos67-x86_64 minimal  
+* rbenv 1.0.0  
+* Ruby 2.2.1  
+* Rails 4.2.1  
+* sqlite3 3.9.1  
+* Node.js 0.12.7  
 
-## Box
-https://atlas.hashicorp.com/louk/centos67minimal  
+#### Box
+* https://atlas.hashicorp.com/louk/centos67minimal  
 
 ## Preparation for Mac
 
 #### Install Vagrant
-http://www.vagrantup.com/downloads.html
+* http://www.vagrantup.com/downloads.html
 
 #### Install Virtualbox
-https://www.virtualbox.org/wiki/Downloads
+* https://www.virtualbox.org/wiki/Downloads
 
 ## Execution Rails Application
 
