@@ -1,7 +1,7 @@
 # vagrant-boxes for Rails study
 
 ## Spec
-centos67-x86_64 minimal with ...  
+centos67-x86_64 minimal with  
 rbenv 1.0.0  
 Ruby 2.2.1  
 Rails 4.2.1  
@@ -49,12 +49,12 @@ $ bin/rails s -b 0.0.0.0
 
 #### Access by your browser on host os
 ```sh
-# on guest os
-http://0.0.0.0:4000/
+# on host os
 ```
+http://0.0.0.0:4000/
 
 ---
 
-**_enjoy! (^o^)/_**
+**_enjoy!_  (^o^)/**
 
 
