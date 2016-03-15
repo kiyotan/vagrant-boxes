@@ -11,7 +11,7 @@ Node.js 0.12.7
 ## Box
 https://atlas.hashicorp.com/louk/centos67minimal  
 
-## Installation for Mac
+## Preparation for Mac
 
 #### Install Vagrant
 http://www.vagrantup.com/downloads.html
@@ -19,7 +19,7 @@ http://www.vagrantup.com/downloads.html
 #### Install Virtualbox
 https://www.virtualbox.org/wiki/Downloads
 
-## Usage
+## Execution Rails Application
 
 #### Install Vagrant Plugin
 ```sh
@@ -38,7 +38,7 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-#### Create rails project, and Start WEBrick server
+#### Create Rails project, and Start WEBrick server
 ```sh
 # on guest os
 # note: you should change the project name 'rails_study' below to your project
@@ -48,10 +48,13 @@ $ bin/rails s -b 0.0.0.0
 ```
 
 #### Access by your browser on host os
-<http://0.0.0.0:4000/>
+```sh
+# on guest os
+http://0.0.0.0:4000/
+```
 
 ---
 
-**_enjoy!_**
+**_enjoy! (^o^)/_**
 
 
